@@ -1,0 +1,8 @@
+flask
+flask-cors
+language-tool-python
+sentence-transformers
+torch
+pdfplumber
+pdf2image
+easyocr
