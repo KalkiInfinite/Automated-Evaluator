@@ -1,0 +1,147 @@
+/* Base Reset & Font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    background: linear-gradient(to right, #e96443, #904e95); /* Matching the ExamChecker Navbar */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: 500;
+    padding: 6px 14px;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+  }
+  
+  .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+  }
+  
+  /* Contact Page Specific Styling */
+  .contact-wrapper {
+    padding-top: 100px; /* to account for fixed navbar */
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .contact-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    margin: 40px 20px;
+  }
+  
+  .contact-card {
+    text-align: center;
+  }
+  
+  .contact-card h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .contact-card p {
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 2px solid #f1f1f1;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    background-color: #fdfdfd;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #ff4b2b;
+    box-shadow: 0 0 0 3px rgba(255, 75, 43, 0.2);
+  }
+  
+  button[type="submit"] {
+    background: linear-gradient(to right, #e96443, #904e95);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background: linear-gradient(to right, #904e95, #e96443);
+  }
+  
+  /* Footer Note */
+  .footer-note {
+    margin-top: 30px;
+    font-style: italic;
+    color: #904e95;
+    text-align: center;
+  }
+  
